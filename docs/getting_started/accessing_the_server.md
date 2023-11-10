@@ -1,0 +1,2 @@
+# Accessing the Server
+<p>Currently, the server will be accessible only to researchers within the I-Form research group via extremely localised intranet. As development continues, the server will be made available across the wider internal intranet and eventually externally via the internet. To access the server please request access from the <a href="mailto:cian.hughes@dcu.ie">server administrator</a>.</p>

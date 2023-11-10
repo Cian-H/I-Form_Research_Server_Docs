@@ -1,7 +1,5 @@
 import subprocess
 
-import tomlkit as toml
-
 from scripts_config import readme_files  # type: ignore
 
 def create_readme():
