@@ -1,0 +1,50 @@
+site_name: I-Form Research Server Documentation
+repo_url: https://github.com/Cian-H/I-Form_Research_Server_Docs
+repo_name: Cian-H/I-Form_Research_Server_Docs
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/github-alt
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      accent: teal
+      toggle:
+        icon: material/lightbulb 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      accent: teal
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Usage: usage.md
+  - Reference:
+    # - FAQ: faq.md
+    # - Troubleshooting: troubleshooting.md
+    # - Changelog: changelog.md
+    - License: license.md
+
+extra:
+  version:
+    provider: mike
+
+plugins:
+  #TODO: Add plugins, they seem to be broken at the moment
+  # - material/optimize
+  # - material/privacy
+  # - material/projects
+  # - material/typeset
+  - search
+  # - git-revision-date-localized:
+  #     enable_creation_date: true

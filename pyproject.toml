@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "research-server-docs"
+version = "0.1.0"
+description = "Documentation for the I-Form Research Server system"
+authors = ["Cian Hughes <cian.hughes@dcu.ie>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.4.8"
+tomlkit = "^0.12.2"
+
+[tool.poetry.scripts]
+build = "build:main"
+
+[tool.scripts-config]
+virtual_env = "{$VIRTUAL_ENV}/src/I-Form_Server_Node_Deployer"
+
+[tool.scripts-config.readme_files]
+"" = "docs/index.md"
+"Usage" = "docs/usage.md"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
