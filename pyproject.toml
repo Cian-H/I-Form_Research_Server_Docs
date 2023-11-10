@@ -22,7 +22,6 @@ virtual_env = "{$VIRTUAL_ENV}/src/I-Form_Server_Node_Deployer"
 
 [tool.scripts-config.readme_files]
 "" = "docs/index.md"
-"Usage" = "docs/usage.md"
 
 [build-system]
 requires = ["poetry-core"]
